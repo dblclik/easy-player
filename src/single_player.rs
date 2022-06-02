@@ -1,7 +1,7 @@
 pub struct SinglePlayer {
-	score: usize,
-	lives: usize,
-	credits: usize
+	pub score: usize,
+	pub lives: usize,
+	pub credits: usize
 }
 
 impl SinglePlayer {
